@@ -41,5 +41,42 @@ Pertama-tama untuk Windows membutuhkan Virtual Machine Software yaitu VMWare, --
 
 ![pilih bahasa](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/191d34f8-8ef4-4cb6-bd84-8fee9c077eaf)
 
-- setelah itu memilih nama, username, password :
+- setelah itu memilih bahasa yang telah disediakan :
 
+![pilih bahasa](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/6f188cac-540b-47cf-8b87-e9ef1802553b)
+
+- Setelah itu mengganti IP Address dari Dynamic ke Static :
+
+![configurasi Subnet](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/05719c9d-87b3-4e03-8b14-f3d06478c3ef)
+
+- setelah itu pilih Custom Storage layout :
+
+![Pilih Custom space penyimpanan](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/2199cd70-9ed9-4ae9-b591-96c031bfd1d7)
+
+- Setelah itu buat partisi berisi 9GB untuk Data 1,5 GB untuk SWAP atau Cadangan
+
+![penentuan data](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/3808003f-d46a-400c-b04f-40d64be6c09a)
+
+- Selanjutnya Memasukan data untuk profile setup :
+
+![Profile setup](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/16d1189c-cbbe-4af5-b69e-e52fe44df41e)
+
+- Setelah memasukan data lanjut untuk apply untuk instal openSSH server :
+
+![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/13cdd720-dab0-41c2-98df-8a3c0e0c6be0)
+
+- Setelah menunggu lumayan lama untuk menginstal seluruh rangkaian penginstalan. selanjutnya reboot terlebih dahulu virtual machinenya :
+
+ ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/8637f0e4-9dc8-4b1d-b102-3e64b8dd036a)
+
+
+- Setelah membuka kembali VM Ubuntu dan tampilan awal seperti ini berati penginstalan telah selesai.
+
+![setelah berhasil terinstal ubuntu](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/bed303b9-2a6f-4279-bd25-06a7bc533f63)
+
+- Check apakah VM Ubuntu sudah bisa di gunakan dengan menggunakan Command PING contohnya ping google.com :
+
+![ping google](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/bf45541a-ddfd-4b5a-959e-a9648b552a70)
+
+
+.::Terimakasih Telah Berkunjung::.
