@@ -32,3 +32,5 @@ Day 2 - Computer Networking
 2. Berikut Hasil Rancangan Jaringan dengan Spesifikasi tertentu sebagai berikut :
 
 ![Rancangan Jaringan](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/dde6baec-4a45-4aad-9e38-05e5146822a4)
+
+.::Terimakasih Telah Berkunjung::.
