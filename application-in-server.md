@@ -6,7 +6,7 @@ Day 3 - Application In Server
 
 
 
-1.  Perbandingan antara Monolith & Microservices:
+#1. Perbandingan antara Monolith & Microservices:
 * Monolith
 - Monolith adalah arsitektur aplikasi yang dibangun sebagai satu kesatuan sistem yang besar dan biasanya memiliki satu basis kode.
 - Monolith memiliki keuntungan dalam hal manajemen kode yang mudah dan pengurangan overhead kognitif, serta kemudahan dalam deployment karena semua fitur dirilis secara bersamaan.
@@ -21,7 +21,7 @@ Day 3 - Application In Server
 - Microservices lebih sulit dalam hal debugging dan keamanan karena adanya interaksi antar modul melalui jaringan.
 - Microservices lebih sulit dalam hal manajemen teknologi karena setiap modul dapat menggunakan teknologi yang berbeda.
 
-2. Jalankan Wayshub-frontend
+#2. Jalankan Wayshub-frontend
 
 - pertama tama kita mengambil data atau clone repository dari wayshub=frontend
 git clone https://github.com/dumbwaysdev/wayshub-frontend
