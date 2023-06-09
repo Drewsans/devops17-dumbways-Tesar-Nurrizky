@@ -19,4 +19,13 @@ Task :
 - Shell adalah program yang berfungsi sebagai antarmuka antara pengguna dan sistem operasi.
 - Shell hanya berfungsi sebagai antarmuka dasar antara pengguna dan sistem operasi.
 
-3. 
+3. Instal Apache2
+dengan Command : sudo apt install apache2
+
+![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/70091128-4e99-4210-b681-3b16774c1255)
+
+cek ip pada web browser
+
+![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/f6f2a68c-b017-477d-9376-0c069032213f)
+
+.:: Terimakasih telah Berkunjung ::.
