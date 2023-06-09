@@ -20,6 +20,14 @@ Day 3 - Application In Server
 - Microservices lebih sulit dalam hal debugging dan keamanan karena adanya interaksi antar modul melalui jaringan.
 - Microservices lebih sulit dalam hal manajemen teknologi karena setiap modul dapat menggunakan teknologi yang berbeda.
 
-2. 
+2. Jalankan Wayshub-frontend
 
+- pertama tama kita mengambil data atau clone repository dari wayshub=frontend
+git clone https://github.com/dumbwaysdev/wayshub-frontend
+
+![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/618564f1-df36-4e28-9c2c-c67af0d5a845)
+
+- cara melihat Node yang sedang digunakan :
+
+![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1b2ae9c2-ddae-46bb-a036-ee8feabbe23f)
 
