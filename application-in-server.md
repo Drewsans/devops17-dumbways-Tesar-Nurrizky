@@ -5,7 +5,8 @@ Day 3 - Application In Server
 3. Deploy Golang & Python dengan menampilkan nama masing-masing
 
 
-1. Perbandingan antara Monolith & Microservices:
+
+1.  Perbandingan antara Monolith & Microservices:
 * Monolith
 - Monolith adalah arsitektur aplikasi yang dibangun sebagai satu kesatuan sistem yang besar dan biasanya memiliki satu basis kode.
 - Monolith memiliki keuntungan dalam hal manajemen kode yang mudah dan pengurangan overhead kognitif, serta kemudahan dalam deployment karena semua fitur dirilis secara bersamaan.
