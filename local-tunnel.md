@@ -34,7 +34,7 @@ Challange - Local Tunnel
 
 - tampilan drew.loca.lt
 
-![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/d0eff638-1677-48c0-b37a-afb0137ae8ff)
+![drew loca lt](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/86aa698b-8956-4e0b-a7a6-f951907c8291)
 
 - Link berhasil sampai ke Apache2
 
