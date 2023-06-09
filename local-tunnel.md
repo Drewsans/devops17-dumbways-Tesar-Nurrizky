@@ -1,4 +1,4 @@
-Challange - Local Tunnel 
+Challenge - Local Tunnel 
 
 - Install nvm
 
