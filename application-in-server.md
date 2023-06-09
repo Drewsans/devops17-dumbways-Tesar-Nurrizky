@@ -30,4 +30,3 @@ git clone https://github.com/dumbwaysdev/wayshub-frontend
 - cara melihat Node yang sedang digunakan :
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1b2ae9c2-ddae-46bb-a036-ee8feabbe23f)
-
