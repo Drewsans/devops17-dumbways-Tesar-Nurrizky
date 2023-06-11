@@ -23,11 +23,60 @@ Day 3 - Application In Server
 
 #2. Jalankan Wayshub-frontend
 
-- pertama tama kita mengambil data atau clone repository dari wayshub=frontend
+- Pertama tama kita mengambil data atau clone repository dari wayshub=frontend
 git clone https://github.com/dumbwaysdev/wayshub-frontend
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/618564f1-df36-4e28-9c2c-c67af0d5a845)
 
-- cara melihat Node yang sedang digunakan :
+- Cara melihat Node yang sedang digunakan :
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1b2ae9c2-ddae-46bb-a036-ee8feabbe23f)
+
+- Jalankan command : npm run build dan tunggu sebentar. dan check apakah sudah terbuat build dengan : ls.
+
+![npm run build](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/a36ff54e-37d3-4b62-a245-53e5033db069)
+
+![success npm run build](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/6cc7767e-3512-44fc-8ff8-b5310d8eedb3)
+
+![ls build](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/c9c03ef0-f7d8-4e79-991f-31b23a9e8a6f)
+
+- Setelah terbuat build lakukan install serve denga command : npm install -g serve, setalh itu jalankan serve -s build untuk menjalankan node.js dan mendapatkan link untuk membuka wayshub-frontend.
+
+![npm install -g serve](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/95ac6a2c-b456-4fda-8b18-878dd4b709fd)
+
+- Berikut tampilan link yang telah dijalankan di web browser.
+
+![success buka wayshub](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/94621da0-5891-4882-9c70-d202f0e97d68)
+
+#3. Deploy Golang dan Python3 dengan menampilkan nama sendiri :
+
+-- Buat folder golang dengan command : mkdir golang , 
+Pastikan apakah sudah terbuat dengan command ls,  
+Lalu pindah folder dengan command cd golang , 
+Setelahnya install golang dengan command :  wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su sampai selesai.
+
+![download golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/752e5c13-6982-49df-ba4d-a6a27d37adcd)
+
+- Setelah terinstall kembali ke main folder dengan cd,
+Selanjutnya masukkan command sudo nano .bashrc,
+Dan tambahkan export dodalam .bashrc dengan : export PATH=$PATH:/usr/local/go/bin,
+Dan ubah directory ke /usr//local/go/bin lalu check dengan command ls
+
+![cinfug golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/f3c642b1-29d3-4264-9fea-9e080babef46)
+
+![tambah export path](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/9cea5a8d-0631-4a9c-ade4-12eb09b86781)
+
+- Lalu gunakan exec bash untuk menjalankan go version dengan check golang
+
+![versi golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/a0070eb4-b003-41fe-9455-5757caf3a706)
+
+- Buat file index.go dengan command : touch index.go,
+Lalu tambahkan code untuk menambahkan nama pada command :  nano index.go,
+Setelahnya run golang dengan command : go run index.go.
+
+![buat index golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/b53c306a-83ea-4a7c-9c5c-80a1ed40f08e)
+
+![isi nano index golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/f98ccb04-a92f-443d-a73b-89007e51fb64)
+
+![setelah di run golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/e1ad8956-d221-44c4-a61a-4ac62bebd7c1)
+
