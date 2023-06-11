@@ -80,3 +80,31 @@ Setelahnya run golang dengan command : go run index.go.
 
 ![setelah di run golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/e1ad8956-d221-44c4-a61a-4ac62bebd7c1)
 
+-- Buat Aplikasi Python3 
+
+- Sebelumnya buat directory python dengan Command : mkdir python,
+Selanjutnya ubah directory dari devops17 ke directory python dengan Command : cd python,
+Install python3 dengan command : sudo apt install python3-pip,
+Lalu install Flask dengan Command : pip install flask.
+
+![mkdir, cd python, install python](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/e9758d9f-7477-47bb-af3a-58ace0bebbf1)
+
+- Buat file python dengan nama tesar.py(bisa dibuat dengan nama bebas),
+Selanjutnya pakai Command nano tesar.py untuk mengisi code didalan python.
+
+![buat file tesar python](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/68855184-616a-49a4-9153-783774bd9dc7)
+
+- Berikut isi code dalam nanot tesar.py :
+
+![isi dari nano tesar python](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/0ec1243d-f539-4c30-8b74-347dab5b6ec5)
+
+- Setelah diisi dalam nano tesar.py,
+Lalu jalankan file python dengan Command : python3 tesar.py
+
+![jalankan python3 untuk generate link](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/6713ee66-6ae8-41a2-9449-d9557b000a59)
+
+- Berikut Hasil setelah link diatas dijalankan di web browser.
+
+![hasil link python di web browser](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1894e971-5589-4d97-bd26-7b674fa69745)
+
+.:: Terimakasih Telah Berkunjung ::.
