@@ -8,7 +8,7 @@ Day 3 - Application In Server
 
 #1. Perbandingan antara Monolith & Microservices:
 * Monolith
-- Monolith adalah arsitektur aplikasi yang dibangun sebagai satu kesatuan sistem yang besar dan biasanya memiliki satu basis kode.
+- Monolith adalah Arsitektur aplikasi yang dibangun sebagai satu kesatuan sistem yang besar dan biasanya memiliki satu basis kode.
 - Monolith memiliki keuntungan dalam hal manajemen kode yang mudah dan pengurangan overhead kognitif, serta kemudahan dalam deployment karena semua fitur dirilis secara bersamaan.
 - Monolith cocok digunakan pada awal pengembangan aplikasi.
 - Monolith lebih mudah dalam hal debugging dan keamanan karena tidak ada interaksi antar modul.
@@ -21,9 +21,9 @@ Day 3 - Application In Server
 - Microservices lebih sulit dalam hal debugging dan keamanan karena adanya interaksi antar modul melalui jaringan.
 - Microservices lebih sulit dalam hal manajemen teknologi karena setiap modul dapat menggunakan teknologi yang berbeda.
 
-#2. Jalankan Wayshub-frontend
+#2. Deploy Wayshub-Frontend
 
-- Pertama tama kita mengambil data atau clone repository dari wayshub=frontend
+- Pertama tama kita mengambil data dengan git atau clone repository dari wayshub=frontend
 git clone https://github.com/dumbwaysdev/wayshub-frontend
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/618564f1-df36-4e28-9c2c-c67af0d5a845)
@@ -32,7 +32,7 @@ git clone https://github.com/dumbwaysdev/wayshub-frontend
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1b2ae9c2-ddae-46bb-a036-ee8feabbe23f)
 
-- Jalankan command : npm run build dan tunggu sebentar. dan check apakah sudah terbuat build dengan : ls.
+- Jalankan Command : npm run build dan tunggu sebentar. dan check apakah sudah terbuat build dengan : ls.
 
 ![npm run build](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/a36ff54e-37d3-4b62-a245-53e5033db069)
 
@@ -40,7 +40,7 @@ git clone https://github.com/dumbwaysdev/wayshub-frontend
 
 ![ls build](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/c9c03ef0-f7d8-4e79-991f-31b23a9e8a6f)
 
-- Setelah terbuat build lakukan install serve denga command : npm install -g serve, setalh itu jalankan serve -s build untuk menjalankan node.js dan mendapatkan link untuk membuka wayshub-frontend.
+- Setelah terbuat build lakukan install serve dengan command : npm install -g serve, setelah itu jalankan serve -s build untuk menjalankan node.js dan mendapatkan link untuk membuka wayshub-frontend.
 
 ![npm install -g serve](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/95ac6a2c-b456-4fda-8b18-878dd4b709fd)
 
@@ -48,9 +48,9 @@ git clone https://github.com/dumbwaysdev/wayshub-frontend
 
 ![success buka wayshub](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/94621da0-5891-4882-9c70-d202f0e97d68)
 
-#3. Deploy Golang dan Python3 dengan menampilkan nama sendiri :
+#3. Deploy Golang dan Python3 untuk menampilkan nama sendiri :
 
--- Buat folder golang dengan command : mkdir golang , 
+-- Buat folder golang dengan Command : mkdir golang , 
 Pastikan apakah sudah terbuat dengan command ls,  
 Lalu pindah folder dengan command cd golang , 
 Setelahnya install golang dengan command :  wget https://golang.org/dl/go1.16.5.linux-amd64.tar.gz && sudo su sampai selesai.
@@ -58,8 +58,8 @@ Setelahnya install golang dengan command :  wget https://golang.org/dl/go1.16.5.
 ![download golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/752e5c13-6982-49df-ba4d-a6a27d37adcd)
 
 - Setelah terinstall kembali ke main folder dengan cd,
-Selanjutnya masukkan command sudo nano .bashrc,
-Dan tambahkan export dodalam .bashrc dengan : export PATH=$PATH:/usr/local/go/bin,
+Selanjutnya masukkan Command : sudo nano .bashrc,
+Dan tambahkan export didalam .bashrc dengan : export PATH=$PATH:/usr/local/go/bin,
 Dan ubah directory ke /usr//local/go/bin lalu check dengan command ls
 
 ![cinfug golang](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/f3c642b1-29d3-4264-9fea-9e080babef46)
@@ -84,7 +84,7 @@ Setelahnya run golang dengan command : go run index.go.
 
 - Sebelumnya buat directory python dengan Command : mkdir python,
 Selanjutnya ubah directory dari devops17 ke directory python dengan Command : cd python,
-Install python3 dengan command : sudo apt install python3-pip,
+Setelh itu Install python3 dengan command : sudo apt install python3-pip,
 Lalu install Flask dengan Command : pip install flask.
 
 ![mkdir, cd python, install python](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/e9758d9f-7477-47bb-af3a-58ace0bebbf1)
@@ -94,7 +94,7 @@ Selanjutnya pakai Command nano tesar.py untuk mengisi code didalan python.
 
 ![buat file tesar python](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/68855184-616a-49a4-9153-783774bd9dc7)
 
-- Berikut isi code dalam nanot tesar.py :
+- Berikut isi code dalam nano tesar.py :
 
 ![isi dari nano tesar python](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/0ec1243d-f539-4c30-8b74-347dab5b6ec5)
 
