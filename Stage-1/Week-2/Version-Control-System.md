@@ -86,6 +86,7 @@ _Setelah terbuat branch production lalu push branch dengan Command : git push or
 ![git push production](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/696399fb-2ef7-4f5f-8cda-44b30902125d)
 
 #4. Berikut adalah tiga perintah Git yang belum dijelaskan:
+
 _git stash: perintah ini digunakan untuk menyimpan perubahan sementara pada direktori kerja tanpa melakukan commit. Perintah ini berguna ketika pengembang ingin beralih ke branch lain atau mengatasi konflik merge tanpa melakukan commit terlebih dahulu.
 
 
