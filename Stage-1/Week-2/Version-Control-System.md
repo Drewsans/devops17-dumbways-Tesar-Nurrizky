@@ -47,4 +47,49 @@ _Lalu buat isi file dengan Command :
 
 ![git commit](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/d7fc4c9e-22c7-4375-8602-faa0112bfc56)
 
-_
+_Setelah terbuat lalu refresh pada github repository example apakah data suddah masuk pada github atau belumnya.
+
+![cap github example](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/008d6cf1-4e00-4aa3-92c5-4829993b689d)
+
+#3. Buat 2 Branch dengan nama branch Staging dan Production
+
+_Pertama-tama buatlah branch staging dengan Command : git branch staging
+
+_setelah itu untuk pindah branch dengan Command : git checkout staging(dikarenakan saya ingin ke branch staging).
+
+_Selanjutnya buat isi staging branch dengan Command : echo "Staging Branch" > file1
+
+_Selanjutnya tambah kan ke file1 dengan Command : git add file1
+
+_Setelah semua dilakukan Commit dengan Command berikut : git commit -m "Add changes to file1 in staging branch"
+
+![git branch staging](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/6b744ed5-bf9a-41ac-8f00-9a15b0474a18)
+
+_Pertama-tama buatlah branch production dengan Command : git branch production
+
+_setelah itu untuk pindah branch dengan Command : git checkout production(dikarenakan saya ingin ke branch production).
+
+_Selanjutnya buat isi production branch dengan Command : echo "production Branch" > file2
+
+_Selanjutnya tambah kan ke file1 dengan Command : git add file2
+
+_Setelah semua dilakukan Commit dengan Command berikut : git commit -m "Add changes to file2 in production branch"
+
+![git branch production](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/0b0717c3-37c0-4fdc-9635-c6c9ff37eceb)
+
+_Setelah terbuat branch staging lalu push branch dengan Command : git push origin staging
+
+![git push staging](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/e1d2abfb-6a96-4476-b6f4-676c796d327f)
+
+_Setelah terbuat branch production lalu push branch dengan Command : git push origin production
+
+![git push production](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/696399fb-2ef7-4f5f-8cda-44b30902125d)
+
+#4. Berikut adalah tiga perintah Git yang belum dijelaskan:
+_git stash: perintah ini digunakan untuk menyimpan perubahan sementara pada direktori kerja tanpa melakukan commit. Perintah ini berguna ketika pengembang ingin beralih ke branch lain atau mengatasi konflik merge tanpa melakukan commit terlebih dahulu.
+
+
+_git cherry-pick: perintah ini digunakan untuk memilih satu atau beberapa commit dari branch lain dan menerapkannya ke branch saat ini. Perintah ini berguna ketika pengembang ingin menerapkan perubahan tertentu dari branch lain tanpa harus menggabungkan seluruh branch.
+
+
+_git rebase: perintah ini digunakan untuk mengubah sejarah commit dengan memindahkan commit ke branch lain atau menggabungkan beberapa commit menjadi satu commit. Perintah ini berguna ketika pengembang ingin membersihkan sejarah commit atau menghindari konflik merge yang terjadi ketika melakukan git merge.
