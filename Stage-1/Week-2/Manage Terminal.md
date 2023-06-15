@@ -59,12 +59,14 @@ Berikut adalah gabungan tampilan dari mengambil informasi :
 - CPU dengan = c
 - Memory dengan = m
 - disks dengan = d
+
 Hasil nya seperti gambar berikut :
 
 ![tampilan CPU, Memory, dan Disk](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/bb13006a-d765-477f-8c1d-c7cc4521201b)
 
 - Berikut adalah gabungan tampilan dari mengambil informasi :
 - Resources linux dan Processor dengan = r
+
 Hasil nya seperti gambar berikut :
 
 ![tampilan Resources linux dan processor](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/e36f338a-1fee-4f7a-90f7-122da5b301b9)
@@ -74,6 +76,7 @@ Berikut adalah gabungan tampilan dari mengambil informasi :
 - Kernel dengan = k
 - Network dengan = n
 - Top Proccesses dengan = t
+
 Hasil nya seperti gambar berikut :
 
 ![tampilan Verbose Mode, Kernel, Network, Dan Top Processor](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1e78159b-f826-4ba9-813e-74bb673ef1df)
