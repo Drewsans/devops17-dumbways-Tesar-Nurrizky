@@ -10,5 +10,7 @@ Referensi :
 - Nama Domain - dumbflix-<nama panggilan>.xyz
 - Dumbflix-FE - ```https://github.com/dumbwaysdev/dumbflix-frontend```
 
+
 #1. Instalasi NGINX memakai Command :
 - sudo apt install nginx
+
