@@ -31,7 +31,7 @@ _ Selanjutnya check dengan Command : git status
 
 ![buat git init](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/d003d991-d67e-4c1d-a069-c542d23b030f)
 
-_ Setelah itu lanjutkan dengan Commit dengan Command : git command -m "tesar file"
+_ Setelah itu lanjutkan dengan Commit dengan Command : git commit -m "tesar file"
 
 _ Lalu lanjutkan dengan masukkan Command : git remote add origin git@github.com:Drewsans/example.git
 
