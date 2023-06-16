@@ -53,8 +53,10 @@ pm2 start npm --name tesar -- start
 - Setelah itu masukkan code pada file /etc/nginx/sites-available/dumbflix-tesar.xyz dengan code ini :
 
 server {
-    listen 80;
-    server_name dumbflix-tesar.xyz; (Isi dengan nama server yang diinginkan)
+    
+ listen 80;
+    
+ server_name dumbflix-tesar.xyz; (Isi dengan nama server yang diinginkan)
 
     location / {
         proxy_pass http://localhost:3000; (isi sendiri ingin di localhost berapa)
