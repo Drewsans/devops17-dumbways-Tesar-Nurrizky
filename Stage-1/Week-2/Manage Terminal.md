@@ -44,6 +44,7 @@ mengambil salah satu kata dalam sebuah kalimat pada isi file. Seperti gambar ber
 ![awk](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/46c5a070-76e6-41d7-b46d-f3cf5c5f2a3f)
 
 #2. Penjelasan Nmon (Nigel's Performance Monitor)
+
 Nmon adalah Sebuah utilitas sistem operasi Linux yang digunakan untuk memantau kinerja sistem secara real-time. Nmon dapat menampilkan informasi tentang penggunaan CPU, memori, disk, jaringan, dan sumber daya sistem lainnya dalam bentuk tabel dan grafik.
 
 - dikarenakan pada Sistem Operasi yang baru terdownload hanya htop maka jika menginginkan Nmon perlu mendownload terlebih dahulu.
