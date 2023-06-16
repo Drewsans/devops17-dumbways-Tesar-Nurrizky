@@ -46,4 +46,42 @@ tetapi dikarenakan saya sudah punya jadi keterangan menjadi already exists.
   
 ![git clone dumbflix](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/87803a18-1df6-4e37-bddd-8f038b74033f)
 
-- 
+- Selanjutnya buat PM2 dengan nama kalian sendiri dengan Command :
+ 
+pm2 start npm --name tesar -- start
+ 
+- Setelah itu masukkan code pada file /etc/nginx/sites-available/dumbflix-tesar.xyz dengan code ini :
+
+server {
+    listen 80;
+    server_name dumbflix-tesar.xyz; (Isi dengan nama server yang diinginkan)
+
+    location / {
+        proxy_pass http://localhost:3000; (isi sendiri ingin di localhost berapa)
+        proxy_http_version 1.1;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+        proxy_set_header Host $host;
+        proxy_cache_bypass $http_upgrade;
+    }
+}
+ 
+- Setelah itu check apakah configuration file di nginx.conf sudah atau belum.
+ 
+- setelah itu check status nginx apakah aktif atau tidak.
+ 
+![sudo nano etc-nginx-sites-available](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/6a173538-d042-454e-b47e-b4a7dfc8fba2)
+
+- Berikut didalam file etc/nginx/sites-available/dumbflix-tesar.xyz
+ 
+ ![etc-nginx-sites-available](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/86ff7abf-d6c1-4583-b93d-9c763c89021c)
+
+- Setelah itu check PM2 dengan Command :
+ 
+ pm2 list
+ 
+- Setelahnya aktifkan PM2 dengan Command :
+ 
+ pm2 start
+ 
+- Setelah aktif 
