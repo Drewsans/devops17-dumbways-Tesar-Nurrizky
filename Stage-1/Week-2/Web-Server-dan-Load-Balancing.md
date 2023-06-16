@@ -53,7 +53,7 @@ pm2 start npm --name tesar -- start
 - Setelah itu masukkan code pada file /etc/nginx/sites-available/dumbflix-tesar.xyz dengan code ini :
 
 server {
-    
+ 
  listen 80;
     
  server_name dumbflix-tesar.xyz; (Isi dengan nama server yang diinginkan)
@@ -67,7 +67,17 @@ server {
         proxy_cache_bypass $http_upgrade;
     }
 }
+
+- Setting juga di /etc/hosts/ di Ubuntu dengan Command :
  
+sudo nano /etc/hosts
+ 
+![etc-hosts di ubuntu](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/d86fcb08-e813-40f4-9c61-dd7c260b1562)
+
+- dan jangan lupa juga setting pada laptop di folder Windows(C):/Windows/System32/drivers/etc/hosts/ :
+ 
+![etc-hosts-drivers](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/989e67a4-e507-435a-b7b0-d306eb2588c8)
+
 - Setelah itu check apakah configuration file di nginx.conf sudah atau belum.
  
 - setelah itu check status nginx apakah aktif atau tidak.
@@ -86,4 +96,9 @@ server {
  
  pm2 start
  
-- Setelah aktif 
+- Setelah itu aktifkan file ecosystem.config.js dengan Command :
+ 
+ pm2 ecosystem simple
+ 
+- Setelah terbuat dan aktif ecosystem.config.js lalu buat code didalamnya sebagai berikut :
+
