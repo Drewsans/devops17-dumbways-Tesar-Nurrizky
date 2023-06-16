@@ -15,8 +15,12 @@ Referensi :
 - Instalasi NGINX memakai Command : sudo apt install nginx
 - dikarenakan memakai VM baru, saya memndownload nodejs dengan Command : sudo apt install nodejs
 - setelahnya check apakah nginx sudah aktif atau belum dengan Command : sudo systemctl status nginx
+ 
+- Dan ketika sudah di aktif bisa di check pada web browser dengan IP Address yang kita punya saya IP Address nya adalah 192.168.1.145
 
 ![instal nginx nodejs check system](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/361a6b3e-079e-42fb-9fc9-857ef25a90e8)
+
+ ![nginx di web](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/749b7916-e3e5-43e4-871c-c6796a5196c5)
 
 - Setelah Download dan aktif, install PM2 dengan command : sudo npm install -g pm2
 
