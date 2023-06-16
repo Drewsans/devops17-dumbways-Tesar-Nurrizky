@@ -14,7 +14,7 @@ Referensi :
 #1. 
 - Instalasi NGINX memakai Command : sudo apt install nginx
 - Dikarenakan memakai VM baru, saya memndownload nodejs dengan Command : sudo apt install nodejs
-- Setelahnya check apakah nginx sudah aktif atau belum dengan Command : sudo systemctl status nginx
+- Setelah itu check apakah nginx sudah aktif atau belum dengan Command : sudo systemctl status nginx
  
 - Dan ketika sudah di aktif bisa di check pada web browser dengan IP Address yang kita punya saya IP Address nya adalah 192.168.1.145
 
