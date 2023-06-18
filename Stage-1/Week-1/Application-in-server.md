@@ -107,4 +107,4 @@ Lalu jalankan file python dengan Command : python3 tesar.py
 
 ![hasil link python di web browser](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1894e971-5589-4d97-bd26-7b674fa69745)
 
-.:: Terimakasih Telah Berkunjung ::.
+                                                    .:: Terimakasih Telah Berkunjung ::.
