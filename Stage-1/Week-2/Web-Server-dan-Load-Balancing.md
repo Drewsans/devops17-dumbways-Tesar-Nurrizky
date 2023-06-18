@@ -118,4 +118,4 @@ dumbflix-tesar.xyz
  
  ![aplikasi jalan di web dengan ip address](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/944a1d17-52d0-4579-8447-e0fc0d4e54b1)
 
-.:: Terimakasih telah Berkunjung ::.
+                                                    .:: Terimakasih telah Berkunjung ::.
