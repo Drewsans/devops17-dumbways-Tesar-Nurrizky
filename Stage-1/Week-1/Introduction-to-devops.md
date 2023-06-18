@@ -79,4 +79,4 @@ Pertama-tama untuk Windows membutuhkan Virtual Machine Software yaitu VMWare, --
 ![ping google](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/bf45541a-ddfd-4b5a-959e-a9648b552a70)
 
 
-.::Terimakasih Telah Berkunjung::.
+                                                  .::Terimakasih Telah Berkunjung::.
