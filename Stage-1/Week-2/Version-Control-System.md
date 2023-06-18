@@ -94,3 +94,5 @@ _ git cherry-pick: perintah ini digunakan untuk memilih satu atau beberapa commi
 
 
 _ git rebase: perintah ini digunakan untuk mengubah sejarah commit dengan memindahkan commit ke branch lain atau menggabungkan beberapa commit menjadi satu commit. Perintah ini berguna ketika pengembang ingin membersihkan sejarah commit atau menghindari konflik merge yang terjadi ketika melakukan git merge.
+
+                                                       .:: Terimakasih Telah Berkunjung ::.
