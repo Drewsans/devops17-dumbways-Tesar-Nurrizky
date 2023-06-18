@@ -28,4 +28,4 @@ cek ip pada web browser
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/f6f2a68c-b017-477d-9376-0c069032213f)
 
-.:: Terimakasih telah Berkunjung ::.
+                                                  .:: Terimakasih telah Berkunjung ::.
