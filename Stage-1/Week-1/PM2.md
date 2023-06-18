@@ -19,4 +19,4 @@ pm2 start app.py --name app -- interpreter python3
 
 ![image](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/b148bb24-178d-4d0a-bdf7-63e329d0d9d2)
 
-.:: Terimakasih Telah Berkunjung ::.
+                                                .:: Terimakasih Telah Berkunjung ::.
