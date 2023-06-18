@@ -82,4 +82,4 @@ Hasil nya seperti gambar berikut :
 
 ![tampilan Verbose Mode, Kernel, Network, Dan Top Processor](https://github.com/Drewsans/devops17-dumbways-Tesar-Nurrizky/assets/118201274/1e78159b-f826-4ba9-813e-74bb673ef1df)
 
-.:: Terimakasih Telah Berkunjung::.
+                                                      .:: Terimakasih Telah Berkunjung::.
